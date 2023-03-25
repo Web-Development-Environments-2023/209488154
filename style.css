@@ -1,7 +1,177 @@
+:root {
+    --theme-color: #84cae859;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	overflow: hidden;
+}
+
+input, textarea {
+	border: solid black 1px;
+}
+
+input[type="submit"] {
+	width: 10%;
+	cursor: pointer;
+	align-self: center;
+	border-radius: 8px;
+}
+
+input[type="button"] {
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+	
+li {
+	margin-left: 10px;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+td, th {
+	width: 160px;
+}
+
 #menu
 {
 	position: fixed;
 	width: 100%;
-	height: 35px;
-	background: white;
+	height: 80px;
+	background-color: var(--theme-color);	
+	display: flex;
+	align-items: center;
+}
+
+.menu-items {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.menu-items a {
+	display: flex;
+    align-items: center;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 15px;
+	color: black;
+}
+
+#menu a:hover {
+	transition: 0.4s;
+    transform: rotateY(360deg);
+}
+
+.menu-items a img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+#content {
+	height: 100vh;
+	width: 100vw;
+	overflow-y: auto;
+}
+
+.section-header {
+    width: 100%;
+    background-color: var(--theme-color);
+    color: black;
+}
+
+.section-content {
+    font-size: 20px;
+}
+
+.gallery {
+    display: flex;
+    overflow-x: auto;
+}
+
+.photo {
+    height: 230px;
+    margin: 5px;
+	border-radius: 8px;
+}
+
+#playlist {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.youtube-frame {
+	width: 560px;
+	height: 315px;
+	margin-top: 40px;
+	display: block;
+}
+
+.like-content-container {
+    display: flex;
+    justify-content: center;
+}
+
+.like-content {
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.like-section-image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.qr-image {
+	width: 300px;
+	height: 300px;
+}
+
+.web-phase-title, .question-title {
+	font-size: large;
+	text-decoration: underline;
+}
+
+.question-title {
+	font-size: larger;
+	font-weight: bold;
+}
+
+#form, .qa-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.emoji-options {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.emoji-options div {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 2px;
 }

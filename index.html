@@ -1,181 +1,236 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="icon" type="image" href="doglogo.png">
+  <title>Mikey</title>
 </head>
 <body>
-<div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
+
+<div class="main-container">
+  <div id="menu">
+    <div class="menu-items">  
+      <a href="#about"><img src="about.png"></img>About Me</a>
+      <a href="#photos"><img src="photoGallery.png"></img>My Photos</a>
+      <a href="#playlist"><img src="playlist.png"></img>My Playlist</a>
+      <a href="#like"><img src="like.png"></img>Like</a>
+      <a href="#qrcoder"><img src="qrcode.png"></img>QR code</a>
+      <a href="#spa"><img src="q&a.png"></img>Q&A</a>
+      <a href="#contact"><img src="contact.png"></img>Contact Me</a>
+    </div>
+  </div>
+        
+  <div id="content">
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <section id="about">
+        <h2 class="section-header">About Mikey</h2>
+        <br/>
+        <p class="section-content">
+          Hi, My name is Mikey, I was Born on 2006.<br/>
+          My family adopted me when I was 4 years old. Well, to be honest - I adopted them.<br/>
+          When they came to the shelter to choose a dog, I felt an instant connection and made them realize they're not leaving here without me!<br/>
+          The most significant person in my life is my father, he takes care of me, takes me out to run and just knows everything I like.<br/>
+          All in all, I'm a simple doggo, I love my family, I love going on walks, but most importantly - I LOVE chicken!
+        </p>
+    </section>
+    <br/>
+    <br/>
+    <section id="photos">
+        <h2 class="section-header">Photo Gallery</h2>
+        <br/>
+        <div class="gallery">
+            <a href="#image1">
+                <img src="image1.jpg" alt="Image 1" class="photo">
+            </a>
+            <a href="#image2">
+                <img src="image2.jpg" alt="Image 2" class="photo">
+            </a>
+            <a href="#image3">
+                <img src="image3.jpg" alt="Image 3" class="photo">
+            </a>
+            <a href="#image4">
+                <img src="image4.jpg" alt="Image 4" class="photo">
+            </a>
+            <a href="#image5">
+                <img src="image5.jpg" alt="Image 5" class="photo">
+            </a>
+            <a href="#image6">
+                <img src="image6.jpg" alt="Image 6" class="photo">
+            </a>
+          </div>
+    </section>
+    <br/>
+    <br/>
+    <br/>
+    <section id="playlist">
+        <h2 class="section-header">My Playlist</h2>
+        <br/>
+        <p class="section-content">
+          When I was a young pup, my family noticed that I walk kind of funny.<br/>
+          I'm a quick little doggo, but I can't seem to manage walking with a staright posture.<br/>
+          My family always called me Jack Sparrow becuase My walk resembles his.<br/>
+          It only makes sense that this is my favorite jam!
+        </p>
+        <iframe class="youtube-frame"
+                src="https://www.youtube.com/embed/BuYf0taXoNw"
+                allowfullscreen></iframe>
+    </section>
+    <br/>
+    <br/>
+    <br/>
+    <section id="like">
+        <h2 class="section-header">Like Mikey ?</h2>
+        <br/>
+        <div class="like-content-container">
+          <div class="like-content">
+            <img src="image4.jpg" class="like-section-image">
+            <div id="fb-root"></div>
+            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v16.0" nonce="UfSqFWSH"></script>
+            <div class="fb-like" data-href="https://www.facebook.com/b7lovesanimals" data-width="" data-layout="" data-action="" data-size="" data-share="false"></div>
+          </div>
+        </div>
+    </section>
+    <br/>
+    <br/>
+    <br/>
+    <section id="qrcoder">
+        <h2 class="section-header">Link to this Website</h2>
+        <br/>
+        <img src="mikeyqrcode.png" class="qr-image"></img>
+    </section>
+    <br/>
+    <br/>
+    <br/>
+    <section id="spa">
+      <h2 class="section-header">Q & A</h2>
+      <br/>
+      <div class="qa-container">
+        <span class="question-title">Q1: Differences Between Web Versions</span>
+        <p>
+          The terms Web1, Web2, and Web3 refer to different stages or versions of the World Wide Web a.k.a the internet.
+          <br/>
+          <br/>
+          <span class="web-phase-title">Web1</span>
+          <br/>
+          The first version of the internet, "the read-only web" was a collection of static HTML pages, with very little user interaction.<br/>
+          In other words, web1 allowed us to search for information and read it and there was almost no content contribution. However, this is exactly what most website owners wanted: Their goal for a website was to establish an online presence and make their information available to anyone at any time.
+          The majority of websites was only showing information and accessing that information through links.
+          <br/>
+          <br/>
+          <span class="web-phase-title">Web2</span>
+          <br/>
+          In the mid-2000s, the second version of the internet, "the read-write web" or "the social web", was published.<br/>
+          This version was characterized by greater interactivity, user-generated content, and social networking.<br/>
+          Web2 facilitates participatory, collaborative, and distributed practices which enable formal and nonformal spheres of daily activities. Other terms used to characterize Web2 include "relationship" technologies, participatory media and a social digital technology which is also known as the wisdom web, people-centric web and participative web with reading and writing, the web could become bi-directional. Web2 is a web as a platform where users can leave many of the controls they have used in web2. In other words, the user of web2 has more interaction with less control. Web2 is not only a new version of web1; Flexible web design, creative reuse, updates, collaborative content creation and modification were facilitated through web2 one of the outstanding feature of the web2 is to support collaboration and to help gather collective intelligence rather web1.<br/>
+          This version of the web also saw the emergence of social media platforms like Twitter, Facebook etc.
+          <br/>
+          <br/>
+          <span class="web-phase-title">Web3</span>
+          <br/>
+          "The decentralized web" or "the semantic web" is the latest version of the internet, and it is still developing.<br/>
+          By using metadata, "display only" data is converted to meaningful information which can be located, evaluated, and delivered by software agents.
+          Web3 intends to Read Write Intelligent web, individually oriented, highly portable and provides User developed smart applications in terms of the characteristic at front end. At backend characteristics web3 provides content (semantic)- aware and context-aware, next generation browsing and searching capabilities, Richness to high data.
+          It deals mainly with static HTML documents, but dynamically rendered pages and alternative formats should follow the same conceptual layout standards whenever possible and links are between documents or part of them.
+          This version of the internet is based on blockchain technology and is focused on decentralization, privacy, and security.<br/>
+          It is designed to be more open, transparent, and resistant to censorship, allowing users to control their data and identities.<br/>
+        </p>
+        <br/>
+        <table class="difference-table">
+          <thead>
+            <th></th>
+            <th>Web1</th>
+            <th>Web2</th>
+            <th>Web3</th>
+          </thead>
+          <tr>
+            <td>Interactivity</td>
+            <td>Mosly read-only</td> 
+            <td>Wildly read-write</td>
+            <td>Portable and personal</td>
+          </tr>
+          <tr>
+            <td>Information purpose</td>
+            <td>Owning content</td>
+            <td>Sharing content</td>
+            <td>Consolidating content</td>
+          </tr>
+          <tr>
+            <td>Content focus</td>
+            <td>Company focus</td>
+            <td>Community focus</td>
+            <td>Individual focus</td>
+          </tr>
+        </table>
+        <br/>
+        <br/>
+        <span class="question-title">Q2: Use-Case Example of Differences Between Web Versions</span>
+        <p>
+          Let's demonstrate the differences with an example, say we want to adopt a dog!<br/>
+          If we were using web1, we would perform a simple search online, and we would be able to gather some information from static websites and learn.<br/>
+          If we were to use web2, we could consult on online forums with other dog owners, read social media posts about adoption centers and the dogs they currently have and purchase supplies online.<br/>
+          On web3, we could use tools that analyze our habits and preferences and get personal recommendations regarding the adoption process such as, what dog type suits us best, what is our budget and the amount of effort required based on free time and availability, and location.
+          <br/>
+          <br/>
+          In the example, We can see the 'Interactivity' difference in the process in which we obtain the information, the 'Information Purpose' difference in the sources of information described and the 'Content Focus' difference in the personalization aspect of the adoption process.
+        </p>
+      </div>
+    </section>
+    <br/>
+    <br/>
+    <section id="contact">
+        <h2 class="section-header">Contact Mikey</h2>
+        <br/>
+        <form id="form" action="mailto:benahash@post.bgu.ac.il" method="post" enctype="text/plain">
+            <p>
+              <label>Email: </label>
+              <input type="text" name="email" id="email" />
+            </p>
+            <p>
+              <label>Subject: </label>
+              <input type="text" name="subject" id="subject" />
+            </p>
+            <p>
+              <label>Message: </label>
+              <textarea input type="text" name="content" id="form-content"></textarea>
+              <br>
+              <ul class="emoji-options">
+                <div>
+                  <li><input type="button" value="😊" onclick="appendEmoji('😊')"/></li>
+                  <li><input type="button" value="😂" onclick="appendEmoji('😂')"/></li>
+                  <li><input type="button" value="😀" onclick="appendEmoji('😀')"/></li>
+                  <li><input type="button" value="😉" onclick="appendEmoji('😉')"/></li>
+                  <li><input type="button" value="😧" onclick="appendEmoji('😧')"/></li>
+                  <li><input type="button" value="❤️" onclick="appendEmoji('❤️')"/></li>
+                </div>
+                <div>
+                  <li><input type="button" value="😍" onclick="appendEmoji('😍')"/></li>
+                  <li><input type="button" value="😘" onclick="appendEmoji('😘')"/></li>
+                  <li><input type="button" value="😢" onclick="appendEmoji('😢')"/></li>
+                  <li><input type="button" value="👍" onclick="appendEmoji('👍')"/></li>
+                  <li><input type="button" value="👎" onclick="appendEmoji('👎')"/></li>
+                  <li><input type="button" value="👋" onclick="appendEmoji('👋')"/></li>
+                </div>
+              </ul>
+            </p>
+            <input type="submit"/>
+          </form>
+    </section>
+    <br/>
+    <br/>
+    <br/>
+  </div>
 </div>
-		  
-<section id="about" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="photos" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="playlist" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="like" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="qrcoder" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="spa" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
-</section>
 
 
+<script>
+  function appendEmoji(text) {
+    document.getElementById("form-content").value += text;
+  }
+</script>
 <script type="text/javascript">
 $(function(){
   $("#nav a").click(function(e){
